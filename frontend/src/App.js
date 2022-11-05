@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     Pusher.logToConsole = true;
 
-    const pusher = new Pusher('3a7298f58ce3114f661d', {
+    const pusher = new Pusher('', {
       cluster: 'ap1'
     });
 
